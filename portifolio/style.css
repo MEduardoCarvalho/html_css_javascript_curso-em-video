@@ -1,16 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
  background: url(./DevLinks\ •\ Projeto\ Discover\ \(Community\)/bg-mobile.jpg) no-repeat
 top center/cover
 }
-
+body * {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
 #container {
    width: 360px;
-   border: 1px solid red;
-   margin: auto;
-}
+   margin:57px auto 0px;
 
+}
+#profile {
+    text-align: center ;
+    padding: 24px;
+}
 #profile img {
-    display: block;
     width: 112px;
     margin: auto;
+}
+
+#profile p {
+    font-weight: 500px;
+    line-height: 24px;
+    margin-top: 8px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px;
+
 }
