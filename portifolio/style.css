@@ -43,6 +43,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 24px 0px;
 }
 
 ul li a {
@@ -57,9 +58,36 @@ ul li a {
   border-radius: 120px;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.2s ;
+  transition: 0.2s ;
 }
 ul li a:hover{
     background-color: rgba(255, 255, 255, 0.05);
     border: 1.5px solid rgb(174, 0, 255);
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+
+    padding: 24px 0px;
+}
+#link a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50%;
+    transition:background-color 0.2s;
+}
+#link a:hover {
+    background: rgba(255, 255, 255, 0.2);
+   }
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: 14px;
 }
