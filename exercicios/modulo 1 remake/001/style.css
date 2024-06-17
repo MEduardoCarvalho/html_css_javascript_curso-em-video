@@ -1,0 +1,18 @@
+* body {
+    text-align: center;
+    background-color: #F2C8A2;
+}
+h1, h2 {
+  color:#401612;
+  text-shadow: 1px 1px 0.5px #351d18 ;
+}
+
+hr {
+    background-color: #BFA18F;
+    height: 4px;
+    border: none;
+}
+img {
+  height: 120px;
+  width: 120px;
+}
