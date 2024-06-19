@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        div {
+            font: normal 20px arial;
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id = "ha" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        interaja...
+    </div>
+    <script>
+        function clicar(){
+           var a = document.getElementById("ha")
+           a.innerText = "nina"
+           a.style.backgroundColor = 'blue'
+v        }
+        function entrar(){
+           var a = document.getElementById("ha")
+           a.innerText = "theo"
+           a.style.backgroundColor = 'red'
+        }
+        function sair() {
+           var a = document.getElementById("ha")
+           a.innerText = "mel"
+           a.style.backgroundColor = "yellow"
+        }
+    </script>
+
+</body>
+</html>
