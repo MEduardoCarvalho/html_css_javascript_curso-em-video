@@ -3,12 +3,19 @@ body {
     font: normal 20px arial;
 }
 
+#text {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 #foto{
    display: flex;
    height: 300px;
    width: auto;
    
+}
+div {
+    text-align: center;
 }
 header {
     color: white;
