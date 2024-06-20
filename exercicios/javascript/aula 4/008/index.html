@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+    body {
+        background-color: aqua;
+    }
+    </style>
+
+</head>
+<body id = fundo>
+    <h2>Qual pais voce nasceu:</h2>
+    <input type="text" id = "text" >
+    <input type="button" value="enviar" onclick="verificar()" >
+    <div id = "re"> </div> 
+    <script>
+        function verificar() {
+        var pais = document.querySelector('input#text')
+        var pais = pais.value.toLowerCase()
+        var re = document.querySelector('div#re')
+        re.innerHTML = `<p> seu nascimento foi em ${pais}</p>`
+        if  (pais != "brasil") {
+         re.innerHTML += `<p>Voce é estrangeiro</p>`
+        } 
+        else {
+         re.innerHTML += `<p>Voce é brasileiro</p>`
+        }
+    }
+    </script>
+</body>
+</html>
