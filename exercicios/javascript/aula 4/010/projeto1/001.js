@@ -12,6 +12,7 @@ if (hora >= 22 || hora <= 6 ) {
     foto.src="manha.webp";
     fundo.style.backgroundColor = "#F2B705"
 } else {
+
     foto.src="tarde.webp";
     fundo.style.backgroundColor = "#F25C05"
 }
